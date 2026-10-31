@@ -1,0 +1,19 @@
+{
+  "name": "sme-working-capital-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Synthetic SME working-capital facility credit-decisioning demo.",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test --test-concurrency=1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.20.0",
+    "mongodb-memory-server": "^10.3.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.15.0"
+  }
+}
